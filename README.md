@@ -4,4 +4,4 @@ creando archivos desde el servidor (github) y actualizarlos en local
 2. agregas
 3. commit
 4. push
-5. despues veremos a la inversa
+despues veremos a la inversa
