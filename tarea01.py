@@ -28,10 +28,10 @@ print("Count de 2:", count)
 
 num = [2, 4, 6, 8, 1, 3, 5, 7, 9] #nueva lista para que jale sort
 num.sort()
-print("After sort", num)
+print("Sort", num)
 
 my_list.reverse()
-print("After reverse:", my_list)
+print("Reverse:", my_list)
 
 copied_list = my_list.copy()
-print("Copied list:", copied_list)
+print("Copy:", copied_list)
