@@ -11,6 +11,15 @@
 #
 # print('El factorial es', Fact)
 
+# alternativa
+# if int<0:
+#     print('No existe')
+# resultado = 1
+# for i in range(1,int+1):
+#     resultado*=i
+#
+# print(resultado)
+
 
 # 2) Create a function that receives 3 numbers and verify if the third number is
 # between the 2 first numbers
@@ -36,8 +45,17 @@
 #           contador += 1
 #         else: continue
 #     print(contador)
-#
+
+#  alternativaa no ocupo el for,,, o si???????
+# def space(string):
+#     contador = 0
+#     if string[i] == ' ':
+#         contador += 1
+#     print(contador)
 # space(string)
+
+# alternativa 2 bien facil lol
+# num_espacios = string.count(' ')
 
 # 4) Given a list, create a function to print the odd numbers in the list
 # lista = [1,2,3,4,5,6,7,8,9, 11.5]
@@ -50,3 +68,11 @@
 #     print (imp)
 #
 # impares(lista)
+
+
+# def factoria(valor):
+#     if valor<1:
+#         return 1
+#     return valor * factoria(valor-1)
+#
+# print(factoria(5))
